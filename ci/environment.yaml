@@ -5,14 +5,16 @@ channels:
 dependencies:
   - python=3.7
   - colcon-common-extensions
+  - colcon-ros=0.3.18
   - vcstool
   - rosdep
   - eigen=3
   - boost=1.69
   - opencv=3
   - tinyxml2
-  - sip
+  - sip=4.19.20
   - qt
   - poco
   - console_bridge
   - bzip2
+  - python-orocos-kdl
